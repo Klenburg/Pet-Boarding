@@ -1,0 +1,56 @@
+﻿@model PetBoardingApp.ViewModels.ContactUsSubmissionVM
+
+@{
+    ViewBag.Title = "Contact Us Page";
+}
+
+<h2 id="title">@ViewBag.Title.</h2>
+<div class="row">
+    <div class="col-md-8">
+        <section id="ContactUsSubmission">
+            @using (Html.BeginForm("Index", "ContactUs", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="row">
+                    @Html.LabelFor(m => m.Name, new { @class = "col-md-2 col-form-label" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <div class="row">
+                    @Html.LabelFor(m => m.Email, new { @class = "col-md-2 col-form-label" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="row">
+                    @Html.LabelFor(m => m.Message, new { @class = "col-md-2 col-form-label" })
+                    <div class="col-md-10">
+                        @Html.TextBoxFor(m => m.Message, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(m => m.Message, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="offset-md-2 col-md-10">
+                        <input type="submit" value="Send" class="btn btn-outline-dark" />
+                    </div>
+                </div>
+                <br />
+            }
+        </section>
+    </div>
+    <div class="col-md-4">
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
