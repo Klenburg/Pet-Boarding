@@ -1,20 +1,23 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Pet-Boarding Website (Work in Progress)
+A JavaScript-driven web application designed to help pet owners book boarding services quickly and easily with a company. I started this project during my volunteer developer work with Web Surfing Studios.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This project is currently in development, and new features will be added.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Current Feautures
+- Initial layout and page structure
+- Early JavaScript logic for UI interactions
+- Placeholder components for booking, pet, and admin information
+- Responsive design Groundwork
+- Login and regester has been implemented
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Features in Progress
+- Full booking form functionality
+- Validation and error handling
+- Dynamic pet profiles
+- Improved stying and design
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## How to Run the Project
+1. Clone the repository: git clone https://github.com/Klenburg/Pet-Boarding.git
+2. Open the project in **Visual Studio 2022**
+3. Build the solution
+4. Run the console application
