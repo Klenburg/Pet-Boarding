@@ -9,11 +9,17 @@ This project is currently in development, and new features will be added.
 - Placeholder components for booking, pet, and admin information
 - Responsive design Groundwork
 - Login and regester has been implemented
+- Contact Us Page
 
 ## Features in Progress
 - Full booking form functionality
 - Validation and error handling
 - Dynamic pet profiles
+- Implementing Forgot Password
+- Getting Started Page
+- Get More Libraries Page
+- Web Hosting Page
+- Hours Page
 - Improved stying and design
 
 ## How to Run the Project
