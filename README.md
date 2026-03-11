@@ -23,7 +23,13 @@ This project is currently in development, and new features will be added.
 - Improved stying and design
 
 ## How to Run the Project
-1. Clone the repository: git clone https://github.com/Klenburg/Pet-Boarding.git
-2. Open the project in **Visual Studio 2022**
-3. Build the solution
-4. Run the console application
+1. Download Visual Studio 2022 and Git
+2. Create a folder in your C drive
+3. Open Git Bash in the folder (Right click the folder and select Open Git Bash Here)
+4. Type command git init
+5. Clone the repository by typing the command: git clone https://github.com/Klenburg/Pet-Boarding.git
+6. Open the project in **Visual Studio 2022** (right click the entire PetBoarding folder and select open In Visual Studio)
+7. Go to the Solution Explorer and select PetBoardingApp.sln
+8. Run the console application by hitting the green play button
+
+Please note that this project is still being developed and is not complete yet
