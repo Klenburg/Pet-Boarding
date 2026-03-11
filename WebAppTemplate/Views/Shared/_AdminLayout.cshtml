@@ -29,10 +29,9 @@
     </nav>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Happy Meows Boarding, Owned by Kaitlyn Lenburg</p>
-        </footer>
+            <footer class="fixed-bottom text-center">
+                <p>&copy; @DateTime.Now.Year - Happy Meows Boarding, Owned by Kaitlyn Lenburg</p>
+            </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
